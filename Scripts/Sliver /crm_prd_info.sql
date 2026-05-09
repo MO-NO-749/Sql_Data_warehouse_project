@@ -73,7 +73,7 @@ prd_id
       WHEN 'M' THEN 'Touring'
  ELSE 'n/a' 
  END AS prd_line
-,prd_start_dt
+,CAST(prd_start_dt AS DATE) AS prd_start_dt
 ,CAST(CAST(LEAD(prd_start_dt) OVER (Partition BY prd_key order BY prd_start_dt) AS datetime)-1 AS DATE) AS prd_end_dt
 FROM bronze.crm_prd_info
 
