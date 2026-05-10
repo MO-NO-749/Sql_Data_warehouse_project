@@ -1,4 +1,4 @@
-CREATE OR ALTER PROCEDURE Silver.Prodeduer_load_Data_silver
+CREATE OR ALTER PROCEDURE Silver.Proceduer_load_Data_silver
  AS 
 BEGIN 
 	DECLARE @START_TIME DATETIME,@END_TIME DATETIME 
