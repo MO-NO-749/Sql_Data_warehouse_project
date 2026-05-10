@@ -1,5 +1,13 @@
-/* dwh_create_date IS The Ppresent date so tyo identify when the chage happend 
-    else it is same as bronze DDl syntex */
+/* ===================================================================
+	DDL script : Create Silver tables
+	==================================================================
+Script perpose ;
+	this script creates tables in the Silver schema, dropping existing
+	tables if they exist.
+	run this script to re-derfine the DDL structure of Silver tables 
+	==================================================================
+NOTE- dwh_create_date IS The Present date so to identify when the chage happend 
+    else it is same as Bronze DDL syntex */
 
 IF OBJECT_ID('Silver.crm_cust_info', 'U') IS NOT NULL 
 	DROP TABLE Silver.crm_cust_info;
