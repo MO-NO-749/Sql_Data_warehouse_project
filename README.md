@@ -48,4 +48,3 @@ This project is licensed under the MIT License. You are free to use, modify, and
 Hi there! I'm Monojit Samanta. I’m an B.com graduate what to excel in my professional life with data in front and finance as domain.   
 
 Let's stay in touch! Feel free to connect with me on the following platforms:
-
