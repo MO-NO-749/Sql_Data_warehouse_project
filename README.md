@@ -1,5 +1,6 @@
 Data Warehouse and Analytics Project
 Welcome to the Data Warehouse and Analytics Project repository! 🚀
+
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
 📖 Project Overview
@@ -9,8 +10,9 @@ Data Architecture: Designing a Modern Data Warehouse Using Medallion Architectur
 ETL Pipelines: Extracting, transforming, and loading data from source systems into the warehouse.
 Data Modeling: Developing fact and dimension tables optimized for analytical queries.
 Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
-🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
 
+🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
+	
 SQL Development
 Data Architect
 Data Engineering
@@ -30,6 +32,7 @@ Integration: Combine both sources into a single, user-friendly data model design
 Scope: Focus on the latest dataset only; historization of data is not required.
 Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 BI: Analytics & Reporting (Data Analysis)
+
 Objective
 Develop SQL-based analytics to deliver detailed insights into:
 
@@ -42,6 +45,7 @@ License
 This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
 
 🌟 About Me
-Hi there! I'm Baraa Khatib Salkini, also known as Data With Baraa. I’m an IT professional and passionate YouTuber on a mission to share knowledge and make working with data enjoyable and engaging!
+Hi there! I'm Monojit Samanta. I’m an B.com graduate what to excel in my professional life with data in front and finance as domain.   
 
 Let's stay in touch! Feel free to connect with me on the following platforms:
+
