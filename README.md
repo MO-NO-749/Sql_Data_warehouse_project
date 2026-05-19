@@ -59,7 +59,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ## 🌟 About Me
 
-Hi there! I'm **Monojit Samanta**. I’m an B.com graduate what to excel in my professional life with data in front and finance as domain.
+Hi there! I'm **Monojit Samanta**. I’m an B.com graduate with exposure in MIS & office Assistent want to excel in my professional life with data in front and finance as domain.
 
 Let's stay in touch! Feel free to connect with me on the following platforms:
 
