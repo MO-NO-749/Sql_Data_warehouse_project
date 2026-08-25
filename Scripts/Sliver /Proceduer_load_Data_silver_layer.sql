@@ -137,7 +137,7 @@ BEGIN
 	
 	SET @START_TIME = GETDATE();
 	PRINT '-------------------------------------'
-		PRINT '>>LOADING DATA INTO Silver.erp_CUST_AZ12';
+	PRINT '>>LOADING DATA INTO Silver.erp_CUST_AZ12';
 				-- INSERING CLEANED DATA IN Silver.erp_CUST_AZ12
 				INSERT INTO [Warehouse_Project_Data].[Silver].[erp_CUST_AZ12]
 				(      [CID]
@@ -179,8 +179,8 @@ BEGIN
 	PRINT '-------------------------------------'
 	
 	SET @START_TIME = GETDATE();
-		PRINT '-------------------------------------'
-		PRINT '>>LOADING DATA INTO Silver.erp_PX_CAT_G1V2';
+	PRINT '-------------------------------------'
+	PRINT '>>LOADING DATA INTO Silver.erp_PX_CAT_G1V2';
 					INSERT INTO [Warehouse_Project_Data].[Silver].[erp_PX_CAT_G1V2] 
 					 (     [ID]
 						  ,[CAT]
