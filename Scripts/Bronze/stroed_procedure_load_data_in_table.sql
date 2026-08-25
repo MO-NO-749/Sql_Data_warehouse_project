@@ -11,6 +11,8 @@ BEGIN
 		PRINT '==========================';
 	SET @START_TIME = GETDATE();
 		PRINT '>> LOADING DATA INTO Bronze.crm_cust_info';
+		IF OBJECT_ID ( 'Bronze.crm_cust_info','V') IS NOT NULL 
+        DROP VIEW Bronze.crm_cust_info 
 		BULK INSERT Bronze.crm_cust_info
 		FROM 'E:\SQL_course\warehouse\sql-data-warehouse-project\datasets\source_crm\cust_info.csv'
 		WITH (
@@ -23,6 +25,8 @@ BEGIN
 	PRINT '-------------------------------------'
 	SET @START_TIME = GETDATE();
 		PRINT '>>LOADING DATA INTO Bronze.crm_prd_info';
+		IF OBJECT_ID ( 'Bronze.crm_prd_info','V') IS NOT NULL 
+        DROP VIEW Bronze.crm_prd_info 
 		BULK INSERT Bronze.crm_prd_info
 		FROM 'E:\SQL_course\warehouse\sql-data-warehouse-project\datasets\source_crm\prd_info.csv'
 		WITH (
@@ -36,6 +40,8 @@ BEGIN
 
 	SET @START_TIME = GETDATE();
 		PRINT '>>LOADING DATA INTO Bronze.crm_sales_details';
+		IF OBJECT_ID ( 'Bronze.crm_sales_details','V') IS NOT NULL 
+        DROP VIEW Bronze.crm_sales_details 
 		BULK INSERT Bronze.crm_sales_details
 		FROM 'E:\SQL_course\warehouse\sql-data-warehouse-project\datasets\source_crm\sales_details.csv'
 		WITH (
@@ -52,6 +58,8 @@ BEGIN
 		PRINT '==========================';
 	SET @START_TIME = GETDATE();
 		PRINT '>>LOADING DATA INTO Bronze.erp_CUST_AZ12';
+		IF OBJECT_ID ( 'Bronze.erp_CUST_AZ12','V') IS NOT NULL 
+        DROP VIEW Bronze.erp_CUST_AZ12
 		BULK INSERT Bronze.erp_CUST_AZ12
 		FROM 'E:\SQL_course\warehouse\sql-data-warehouse-project\datasets\source_erp\CUST_AZ12.csv'
 		WITH (
@@ -65,6 +73,8 @@ BEGIN
 
 	SET @START_TIME = GETDATE();
 		PRINT '>>LOADING DATA INTO Bronze.erp_LOC_A101';										
+		IF OBJECT_ID ( 'Bronze.erp_LOC_A101','V') IS NOT NULL 
+        DROP VIEW Bronze.erp_LOC_A101
 		BULK INSERT Bronze.erp_LOC_A101
 		FROM 'E:\SQL_course\warehouse\sql-data-warehouse-project\datasets\source_erp\LOC_A101.csv'
 		WITH (
@@ -78,6 +88,8 @@ BEGIN
 	
 	SET @START_TIME = GETDATE();
 		PRINT '>>LOADING DATA INTO Bronze.erp_PX_CAT_G1V2';
+		IF OBJECT_ID ( 'Bronze.erp_PX_CAT_G1V2','V') IS NOT NULL 
+        DROP VIEW Bronze.erp_PX_CAT_G1V2
 		BULK INSERT Bronze.erp_PX_CAT_G1V2
 		FROM 'E:\SQL_course\warehouse\sql-data-warehouse-project\datasets\source_erp\PX_CAT_G1V2.csv'
 		WITH (
