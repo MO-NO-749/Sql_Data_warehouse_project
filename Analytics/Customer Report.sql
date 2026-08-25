@@ -94,7 +94,7 @@ total_orders,
 total_sales,
 total_quantity,
 total_products,
-lifespan
+lifespan,
 -- Compuate average order value (AVO)
 CASE WHEN total_sales = 0 THEN 0
 	 ELSE total_sales / total_orders
