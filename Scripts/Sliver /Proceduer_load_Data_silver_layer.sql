@@ -82,7 +82,6 @@ BEGIN
 					  WHEN 'M' THEN 'Mountain'
 					  WHEN 'R' THEN 'Road'
 					  WHEN 'S' THEN 'Other Sales'
-					  WHEN 'M' THEN 'Touring'
 				 ELSE 'n/a' 
 				 END AS prd_line
 				,CAST(prd_start_dt AS DATE) AS prd_start_dt
