@@ -45,7 +45,7 @@ FROM
 SELECT c.customer_id
         , CONCAT(c.first_name,' ',c.last_name) AS customer_name
         ,COUNT(c.customer_id) OVER() AS total_Customers 
-        ,COUNT(c.customer_id) OVER(ORDER BY c.customer_id) AS cumulative_Customer_count
+        ,COUNT(c.customer_id) OVER(ORDER BY c.customer_id) AS c
         ,SUM(s.sales_amount) AS total_Customers_sales
         
  FROM Gold.fact_sales s LEFT JOIN 
