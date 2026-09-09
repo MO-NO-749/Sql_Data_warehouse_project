@@ -50,7 +50,7 @@ SELECT c.customer_id
         
  FROM Gold.fact_sales s LEFT JOIN 
 Gold.dim_customers c ON s.customer_key = c.customer_key
-GROUP BY c.first_name,c.last_name,c.customer_id,s.sales_amount 
+GROUP BY c.first_name,c.last_name,c.customer_id
 )t
 )
 SELECT 
